@@ -1,0 +1,26 @@
+{
+  "name": "blog-list-app",
+  "version": "1.0.0",
+  "description": "Blog list application built with Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "blog",
+    "express",
+    "mongodb"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^4.21.2",
+    "mongodb-memory-server": "^10.2.0",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
